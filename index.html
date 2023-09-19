@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<title>website for free</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/index.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+</html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume Builder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+
+
+        <h3 class="title">Turning Skills into Opportunities </h3>
+    
+
+          
+       
+       
+    <div class="container mt-5">
+            <h3 class="w3-xxlarge w3-center this">Resume Builder</h3>
+            <div class="w3-large w3-padding">
+                Name : <input type="text" id="fullname"> 
+                DOB : <input type="date" id="date" > <br> <br>
+                Phone : <input type="number" id="phone" maxlength="10"data-toggle="popover" data-trigger="hover" data-content="10 digits only" placeholder="Phone no" title="Tip 💡"> <br> <br>
+                Email : <input type="email" id="email"> <br> <br>
+                Address line 1: <input type="text" id="add"> 
+                
+                Address line 2: <input type="text" id="add2">
+                
+                Address line 3: <input type="text" id="add3"> <br> <br> 
+                  
+                Educational Qualifiacation SSC year: <input type="text" id="ssc" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="SSC completed in 2018-19 from University of Mumbai" placeholder="SSC year passed" placeholder="SSC"><br> <br> 
+                  
+                Educational Qualifiacation SSC Board: <input type="text" id="sscboard" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="SSC completed in 2018-19 from University of Mumbai" placeholder="SSC board" placeholder="SSC board"><br> <br>
+                  
+                Educational Qualifiacation HSC year: <input type="text" id="hsc" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="HSC completed in 2018-19 from University of Mumbai" placeholder="HSC year passed"  >  <br> <br> 
+                 
+                Educational Qualifiacation HSC Board: <input type="text" id="hscboard" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="SSC completed in 2018-19 from University of Mumbai" placeholder="HSC board" placeholder="SSC"><br> <br>  
+                
+                Educational Qualifiacation Graduation year: <input type="text" id="degree" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="BCOM/BMS/BSC/BA completed in 2018-19 from University of Mumbai" placeholder="Graduation year passeed"> <br> <br> 
+                  
+                Educational Qualifiacation Graduation board: <input type="text" id="degreeboard" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="BCOM/BMS/BSC/BA completed in 2018-19 from University of Mumbai" placeholder="Graduation board" placeholder="SSC"><br> <br>  
+                
+                Educational Qualifiacation PG year: <input type="text" id="pg" placeholder="Post Graduation year passed (Optional)"> <br> <br> 
+                  
+                Educational Qualifiacation PG board: <input type="text" id="pgboard" placeholder="Post Graduation board (Optional)"> <br> <br>
+                
+                  
+                 Key Skills : <input type="text" id="skills" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="Excel, Advance Excel, Microsoft office" placeholder="key skills"> &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                  Key Skills 2: <input type="text" id="skills2" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="Excel, Advance Excel, Microsoft office" placeholder="key skills"> <br> <br>
+                  
+                  Key Skills 3: <input type="text" id="skills3" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="Excel, Advance Excel, Microsoft office" placeholder="key skills"> <br> <br>
+                  
+                 Hobbies : <input type="text" id="hobbies" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="Artificial Intelegence, Travelling, Singing" placeholder="Areas of interests"> &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                  Hobbies 2: <input type="text" id="hobbies2" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content="Artificial Intelegence, Travelling, Singing" placeholder="Areas of interests"> &nbsp;&nbsp;&nbsp;&nbsp;
+                  
+                  Hobbies 3: <input type="text" id="hobbies3" data-toggle="popover" title="Tip 💡" data-trigger="hover" data-content=" Solving Puzzel, Drawing, Reading" placeholder="Areas of interests"> <br> <br>
+                </div>
+            </div>
+        </div>
+        <button class="preview " id="preview-button">Preview Resume</button>
+    </div>
+            <div class="btn">
+                <input type="submit" class="w3-btn w3-green w3-round w3-ripple" value="Download Resume" onclick="download()">
+                
+                    
+                <input type="submit" class="w3-btn w3-green w3-round w3-ripple" value="Download Resume (2)" onclick="download2()">
+                
+                  <input type="submit" class="w3-btn w3-green w3-round w3-ripple" value="Download Resume (3)" onclick="download3()">
+                 
+                  <!-- Add this div for the resume preview -->
+                <div id="resume-preview" class="w3-card w3-padding w3-white" style="width: 40%; margin-left: 20px;">
+                    <!-- The previewed resume content will be displayed here -->
+                
+        <!-- Add this div for the resume preview -->
+        <div id="resume-preview" class="w3-card w3-padding w3-white mt-4">
+            <!-- The previewed resume content will be displayed here -->
+        
+    </div>
+
+    
+
+    <script src="js/index.js"></script>
+   
+</body>
+
+</html>
+
+
